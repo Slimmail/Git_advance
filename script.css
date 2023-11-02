@@ -1,0 +1,177 @@
+/* 
+На этой странице содержится файл Sample.css, в котором представлена информация для настройки стилей на странице входа в систему центра
+служб идентификации.  
+Вы должны создать новый файл Custom.css в каталоге .../itim/custom/ui/css. 
+Для пробы импортируйте файл Sample.css в файл Custom.css, который вы создали, чтобы увидеть результат применения настроенных стилей на странице входа
+в систему центра служб идентификации.
+*/
+
+.oneui .loginForm .page {
+    max-height: auto;
+}
+
+/*
+Чтобы изменить размер логотипа продукта, измените показанный ниже класс:
+*/
+.page .product_logo {
+    height: 40px;
+    width: 120px;
+}
+
+/*
+Чтобы изменить свойства названия заголовка, измените показанный ниже класс:
+*/
+.loginColumn .headertTitle {
+    font-size: 1.67em;
+    font-weight: normal;
+    font-color: #222222;
+    margin-bottom: 10px;
+}
+
+/*
+Чтобы изменить свойства поля языка, измените показанный ниже класс:
+*/
+.languageField {
+    padding: 10px 0px !important;
+    float: right;
+
+}
+
+.dj_ie9 .languageField {
+    margin: 50px !important;
+}
+
+.dijitRtl .languageField {
+    float: left;
+}
+
+/*
+Чтобы изменить свойства формы Вход в систему, измените показанный ниже класс:
+*/
+.oneui .loginForm {
+    text-align: center;
+    background: #A9A9F5;
+    background: -moz-linear-gradient(center top, #e8e8e8 0%, #b9b9b9 100%);
+    background: -webkit-linear-gradient(top, #e8e8e8 0%, #b9b9b9 100%);
+    background: -ms-linear-gradient(top, #e8e8e8 0%, #b9b9b9 100%);
+    background: linear-gradient(to bottom, #e8e8e8 0%, #b9b9b9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#b9b9b9', GradientType=0);
+    box-shadow: 2px 0px 4px #000 inset;
+}
+
+/*
+Чтобы изменить свойства страницы Вход в систему, измените показанный ниже класс:
+*/
+.loginForm .page {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    /* max-height: 48em; */
+    border: medium solid #999999;
+    background: #CEECF5;
+}
+
+/*
+Чтобы изменить свойства кнопки Вход в систему, измените показанный ниже класс:
+*/
+.oneui .loginBtn .idxSpecialButton .dijitButtonNode {
+    background-color: greenyellow;
+    background-image: -moz-linear-gradient(top, green, red);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#008abf), to(#085884));
+    background-image: -webkit-linear-gradient(top, red 0%, #085884 100%);
+    background-image: -o-linear-gradient(top, #008abf 0%, #085884 100%);
+    background-image: -ms-linear-gradient(top, #008abf 0%, #085884 100%);
+    background-image: linear-gradient(top, #008abf 0%, #085884 100%);
+    border: 1px solid #0a5f8e;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+}
+
+.dijitRtl .page {
+    text-align: right;
+}
+
+.mainLogin {
+    margin-top: 0px;
+    white-space: nowrap;
+}
+
+.loginColumn {
+    display: inline-block;
+    padding-right: 8px;
+    min-width: 0px;
+}
+
+.dijitRtl .loginColumn {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+
+
+HomePage.css Этот пример файла содержит данные о стилях для домашней страницы.
+
+/*
+Чтобы изменить цвет фона для домашней страницы, измените показанный ниже класс
+*/
+.SVCENTER_HOMEPAGE .itimui {
+    height: 100%;
+    background: #E0F8F7;
+    /* Старые браузеры */
+    background: -moz-radial-gradient(center, ellipse cover, #F2F2F2 1%, #E0F8F7 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #F2F2F2), color-stop(100%, #E0F8F7));
+    /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #F2F2F2 1%, #E0F8F7 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #F2F2F2 1%, #E0F8F7 100%);
+    /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #F2F2F2 1%, #E0F8F7 100%);
+    /* IE10+ */
+    background: radial-gradient(ellipse at center, #F2F2F2 1%, #E0F8F7 100%);
+    /* W3C */
+}
+
+
+
+/*
+Чтобы изменить рамку карты навигации, измените показанный ниже класс
+*/
+.navCardBorder {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 2);
+}
+
+}
+
+.dijitRtl .navcard .navCardBorder .textArea .newWindowIcon {
+    right: auto;
+    left: 7px;
+}
+
+
+
+/*
+Чтобы изменить свойства выбранной карты навигации, измените показанный ниже класс
+*/
+.navcard .navCardBorder .textArea:hover {
+    border: 1px solid #fff;
+    outline: 2px solid rgba(0, 0, 0, 0.2);
+    background: #81BEF7;
+    /* Старые браузеры */
+    background: -moz-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #81BEF7), color-stop(20%, #58D3F7));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #81BEF7 0%, #58D3F7 20%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#81BEF7 ', endColorstr='#58D3F7', GradientType=0);
+    /* IE6-9 */
+}
