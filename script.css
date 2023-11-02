@@ -150,28 +150,3 @@ HomePage.css Этот пример файла содержит данные о �
     left: 7px;
 }
 
-
-
-/*
-Чтобы изменить свойства выбранной карты навигации, измените показанный ниже класс
-*/
-.navcard .navCardBorder .textArea:hover {
-    border: 1px solid #fff;
-    outline: 2px solid rgba(0, 0, 0, 0.2);
-    background: #81BEF7;
-    /* Старые браузеры */
-    background: -moz-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #81BEF7), color-stop(20%, #58D3F7));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #81BEF7 0%, #58D3F7 20%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, #81BEF7 0%, #58D3F7 20%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#81BEF7 ', endColorstr='#58D3F7', GradientType=0);
-    /* IE6-9 */
-}
